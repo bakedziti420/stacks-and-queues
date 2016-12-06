@@ -39,4 +39,4 @@ Remember these steps for interview problems...
 
 4. Test your code with the input-ouput pairs.  Also try testing edge cases that you may have missed before.
 
-A JavaScript solution is available in the solutions folder.
+A JavaScript solution will be available toward the end of this class.
