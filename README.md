@@ -74,7 +74,7 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
 
   </details>
 
-1. Stacks are often implemented with arrays, given the built-in methods we have access to in JavaScript and Ruby.  So, let's think of arrays.  Where would you put the "top" of the stack? How would you add something to the top the stack? How would you take something off?
+1. Stacks are often implemented with arrays, given the built-in methods we have access to in JavaScript.  So, let's think of arrays.  Where would you put the "top" of the stack? How would you add something to the top the stack? How would you take something off?
 
  <details><summary>super stuck? click for an answer...</summary>
  > The "top" could be the end of the array, and you could use array methods `push` and `pop`.  Thanks, high level programming languages!
