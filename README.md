@@ -1,3 +1,5 @@
+<!-- 9:45 10 minutes -->
+
 <!--Hook: Raise your hand if you love binary.  For those who didn't raise your hand, I have bad news for you: you'll probably have to know it to get through interviews anyway.  I have certainly been asked this exact question in an interview: "What is 2^32?"  Hopefully your interviewers will be a little more problem-solving centric, but I can almost guarantee you that the math you will see in an interview will have something to do with that.  We're about to look at one of the big applications: memory storage.  -->
 
 <!-- There will be some hints below.  I cannot stress enough that you don't look at those hints until after we've come together as a class.  We're going to think about it individually, in pairs, and then finally as a class, and seeing an answer would ruin the process. -->
@@ -14,13 +16,11 @@
 5) Write up var big_number = 232, var middle_number = 123, var small_number = 31, have students write out the binary for each
 6) Put big_number at 0x0, middle_number at 0xf, small_number at 0xf8
 
-OK, now our variables are saved.  Now all Ruby or Javascript needs to do is create a table: big_number: 0x0, middle_number: 0xf, etc.  So I'm looking for small_number, that's 0xf8, so my computer returns what number?
+OK, now our variables are saved.  Now all Javascript needs to do is create a table: big_number: 0x0, middle_number: 0xf, etc.  So I'm looking for small_number, that's 0xf8, so my computer returns what number?
 
 -->
 
-# Data Structures: Stacks and Queues
-
-Stacks and queues are two commonly used data structures.  You can read about them below or watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI). If you watch the video, note that all the operations mentioned take O(1) time.  What does that mean?  No matter how big your stack or queue gets (that's n), the operations in the video, and the operations we'll focus on below, take the same amount of time. The time needed DOES NOT depend on the number of things in the stack, so it's constant, O(1) time.
+<!--9:55 5 minutes -->
 
 ## Objectives:
 
@@ -28,7 +28,13 @@ Stacks and queues are two commonly used data structures.  You can read about the
 * **Pseudo-code** a stack and a queue
 * **Solve** interview questions with stacks and queues
 
-##Stacks
+# Data Structures: Stacks and Queues
+
+Stacks and queues are two commonly used data structures.  Let's watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI) first. As you watch the video, note that all the operations mentioned take O(1) time.  What does that mean?  No matter how big your stack or queue gets (that's n), the operations in the video, and the operations we'll focus on below, take the same amount of time. The time needed DOES NOT depend on the number of things in the stack, so it's constant, O(1) time.
+
+<!--10:00 15 minutes -->
+
+## Stacks
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/2000px-Data_stack.svg.png" width="400px" alt="stack image with push and pop">
 
@@ -52,7 +58,7 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
   * POP
   * PUSH 8
 
-  <details><summary>click for answer</summary>
+  <!--
 
     ```
     * start     []
@@ -72,7 +78,7 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
     * PUSH 8    [2, 4, 8]
     ```
 
-  </details>
+  -->
 
 1. Stacks are often implemented with arrays, given the built-in methods we have access to in JavaScript.  So, let's think of arrays.  Where would you put the "top" of the stack? How would you add something to the top the stack? How would you take something off?
 
@@ -80,7 +86,9 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
  > The "top" could be the end of the array, and you could use array methods `push` and `pop`.  Thanks, high level programming languages!
  </details>
 
-##Queues
+<!--10:15 15 minutes -->
+
+## Queues
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/2000px-Data_Queue.svg.png" width="400px" alt="queue image with enqueue and dequeue">
@@ -104,7 +112,7 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
   * DEQUEUE
   * ENQUEUE 8
 
-  <details><summary>click for answer...</summary>
+  <!--
     ```
     * start        []
     * ENQUEUE 0    [0]
@@ -115,18 +123,22 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
     * DEQUEUE      [4, 6]
     * ENQUEUE 8    [4, 6, 8]
     ```
-  </details>
+  -->
 
 
 
 1. How would you implement a queue **with an array**? Where would you decide the front of the queue would be? How would you `enqueue` something to the end of the queue? How would you `dequeue` something from the front of the queue?
 
  <details><summary>super stuck? click for an answer...</summary>
- > The "front" could be the beginning of the array.  To enqueue, you'd use JavaScript or Ruby's handy `push` array method. To dequeue, you could use JavaScript or Ruby's `shift` method, which removes and returns the first element from an array.
+ > The "front" could be the beginning of the array.  To enqueue, you'd use JavaScript's handy `push` array method. To dequeue, you could use JavaScript's `shift` method, which removes and returns the first element from an array.
 
  </details>
 
+<!--10:30 5 minutes -->
+
 <!--Catch phrase with Stack, Push, Pop, Queue, Enqueue, Dequeue -->
+
+<!--10:35 5 minutes -->
 
 ## Challenges
 
@@ -141,6 +153,7 @@ Would you use a stack or a queue to...
 
 1. ... display *only* the 10 most recent messages a user posted, in the order they were posted?
 
+<!-- 10:40 5 minutes -->
 
 #### The Call Stack
 
@@ -167,7 +180,7 @@ Would you use a stack or a queue to...
 Draw the full call stack for `factorial(3)` at each step in the function's execution.
 
 
- <details><summary>click for an answer...</summary>
+ <!--
 
   ```
   * [factorial(3)]
@@ -178,8 +191,9 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
   * []
   ```
 
- </details>
+ -->
 
+<!--10:45 5 minutes -->
 
 #### Message Queues
 
