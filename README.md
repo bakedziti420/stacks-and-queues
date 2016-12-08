@@ -20,6 +20,8 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 
 -->
 
+<!--This took an hour, should be its own class -->
+
 <!--9:55 5 minutes -->
 
 ## Objectives:
