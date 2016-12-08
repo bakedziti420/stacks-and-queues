@@ -22,6 +22,8 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 
 <!--This took an hour, should be its own class -->
 
+<!--Actually 11:10-->
+
 <!--9:55 5 minutes -->
 
 ## Objectives:
@@ -102,6 +104,8 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
 
 <img src="http://www.rioleo.org/images/static/queuesafety.jpg" alt="stick figure demon eats person cutting in line -- from popcoaster.com" width="400px">
 
+<!--11:35 actually -->
+
 ### Thinking with Queues
 
 1.  Draw a queue after each of the following operations:
@@ -181,6 +185,8 @@ Would you use a stack or a queue to...
 
 Draw the full call stack for `factorial(3)` at each step in the function's execution.
 
+<!--12:09-->
+
 <!--solution
   * [factorial(3)]
   * [factorial(3), factorial(2)]  
@@ -203,6 +209,8 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
  1. What should the chef do when the queue is empty?
 
  1. How would you distribute orders if there are 3 chefs?
+
+<!--12:23 -->
 
 ###Further Resources
 
