@@ -179,19 +179,14 @@ Would you use a stack or a queue to...
 
 Draw the full call stack for `factorial(3)` at each step in the function's execution.
 
-
- <!--
-
-  ```
+<!--solution
   * [factorial(3)]
   * [factorial(3), factorial(2)]  
   * [factorial(3), factorial(2), factorial(1)]  
   * [factorial(3), factorial(2)]  
   * [factorial(3)]  
   * []
-  ```
-
- -->
+-->
 
 <!--10:45 5 minutes -->
 
