@@ -1,3 +1,5 @@
+<!--Actually 9:06 WDI3-->
+
 <!-- 9:45 10 minutes -->
 
 <!--Hook: Raise your hand if you love binary.  For those who didn't raise your hand, I have bad news for you: you'll probably have to know it to get through interviews anyway.  I have certainly been asked this exact question in an interview: "What is 2^32?"  Hopefully your interviewers will be a little more problem-solving centric, but I can almost guarantee you that the math you will see in an interview will have something to do with that.  We're about to look at one of the big applications: memory storage.  -->
@@ -20,10 +22,11 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 
 -->
 
-<!--This took an hour, should be its own class -->
+<!--This took an hour in WDI2, should be its own class -->
 
-<!--Actually 11:10-->
+<!--Actually 11:10 WDI2-->
 
+<!--9:24 WDI3 this video is really quiet, use the tailgater instead of projector-->
 <!--9:55 5 minutes -->
 
 ## Objectives:
@@ -49,6 +52,8 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
 <img src="http://stratton.d11.org/PublishingImages/kid%20with%20pancakes.gif" alt="child defending stack of pancakes using fork and knife" width="400px">
 
 *Don't `pop` from Jimmy's stack of pancakes.*
+
+<!--WDI3 9:35 during set-up, 9:36 devs start writing-->
 
 ### Thinking with Stacks
 
@@ -90,6 +95,7 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
  > The "top" could be the end of the array, and you could use array methods `push` and `pop`.  Thanks, high level programming languages!
  </details>
 
+<!-- 9:39 WDI3 -->
 <!--10:15 15 minutes -->
 
 ## Queues
@@ -159,6 +165,8 @@ Would you use a stack or a queue to...
 
 1. ... display *only* the 10 most recent messages a user posted, in the order they were posted?
 
+<!--9:52 -->
+
 <!-- 10:40 5 minutes -->
 
 #### The Call Stack
@@ -210,6 +218,7 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
 
  1. How would you distribute orders if there are 3 chefs?
 
+<!--10:04 WDI3 -->
 <!--12:23 -->
 
 ### Further Resources
