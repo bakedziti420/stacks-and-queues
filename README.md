@@ -24,6 +24,7 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 
 <!--This took an hour in WDI2, should be its own class -->
 
+<!--9:25 WDI4 -->
 <!--Actually 11:10 WDI2-->
 
 <!--9:24 WDI3 this video is really quiet, use the tailgater instead of projector-->
@@ -39,6 +40,7 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 
 Stacks and queues are two commonly used data structures.  Let's watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI) first. As you watch the video, note that all the operations mentioned take O(1) time.  What does that mean?  No matter how big your stack or queue gets (that's n), the operations in the video, and the operations we'll focus on below, take the same amount of time. The time needed DOES NOT depend on the number of things in the stack, so it's constant, O(1) time.
 
+<!--WDI4 9:32 -->
 <!--10:00 15 minutes -->
 
 ## Stacks
@@ -147,6 +149,7 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
  </details>
 
 <!--10:30 5 minutes -->
+<!--9:49 WDI4 -->
 
 <!--Catch phrase with Stack, Push, Pop, Queue, Enqueue, Dequeue -->
 
@@ -167,6 +170,8 @@ Would you use a stack or a queue to...
 
 <!--9:52 -->
 
+
+<!--9:58 WDI4 -->
 <!-- 10:40 5 minutes -->
 
 #### The Call Stack
@@ -205,6 +210,7 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
 -->
 
 <!--10:45 5 minutes -->
+<!--10:08 WDI4 -->
 
 #### Message Queues
 
@@ -219,6 +225,7 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
  1. How would you distribute orders if there are 3 chefs?
 
 <!--10:04 WDI3 -->
+<!--WDI4 10:20 after brief intro of challenges-->
 <!--12:23 -->
 
 ### Further Resources
