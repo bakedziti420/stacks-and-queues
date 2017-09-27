@@ -1,4 +1,5 @@
 <!--Actually 9:06 WDI3-->
+<!--WDI5 9:04 -->
 
 <!-- 9:45 10 minutes -->
 
@@ -25,6 +26,7 @@ OK, now our variables are saved.  Now all Javascript needs to do is create a tab
 <!--This took an hour in WDI2, should be its own class -->
 
 <!--9:25 WDI4 -->
+<!--WDI5 9:30  -->
 <!--Actually 11:10 WDI2-->
 
 <!--9:24 WDI3 this video is really quiet, use the tailgater instead of projector-->
@@ -51,7 +53,7 @@ Stacks as a data structure are a lot like stacks as a physical structure. Think 
 
 Stacks are "Last In, First Out" -- the last item pushed on top of a stack will be the first thing popped off of the stack.  
 
-<img src="http://stratton.d11.org/PublishingImages/kid%20with%20pancakes.gif" alt="child defending stack of pancakes using fork and knife" width="400px">
+<img src="https://previews.123rf.com/images/tntgraphics/tntgraphics0901/tntgraphics090100011/4175367-Little-boy-with-a-giant-plate-of-pancakes-a-knife-and-fork-on-a-table-cloth-Shallow-DOF-with-focus-o-Stock-Photo.jpg" alt="child defending stack of pancakes using fork and knife" width="400px">
 
 *Don't `pop` from Jimmy's stack of pancakes.*
 
@@ -90,6 +92,8 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
     ```
 
   -->
+
+<!--WDI5 9:4 -->
 
 1. Stacks are often implemented with arrays, given the built-in methods we have access to in JavaScript.  So, let's think of arrays.  Where would you put the "top" of the stack? How would you add something to the top the stack? How would you take something off?
 
