@@ -106,7 +106,6 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
 
 ## Queues
 
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/2000px-Data_Queue.svg.png" width="400px" alt="queue image with enqueue and dequeue">
 
 
@@ -117,6 +116,7 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
 <img src="http://www.rioleo.org/images/static/queuesafety.jpg" alt="stick figure demon eats person cutting in line -- from popcoaster.com" width="400px">
 
 <!--11:35 actually -->
+<!--WDI5 9:47 -->
 
 ### Thinking with Queues
 
@@ -157,6 +157,7 @@ Queues are "First In, First Out" -- the first item enqueued will be the first to
 
 <!--Catch phrase with Stack, Push, Pop, Queue, Enqueue, Dequeue -->
 
+<!--9:54 forgot catch phrase WDI5, after catch phrase 10:04 -->
 <!--10:35 5 minutes -->
 
 ## Challenges
@@ -230,6 +231,7 @@ Draw the full call stack for `factorial(3)` at each step in the function's execu
 
 <!--10:04 WDI3 -->
 <!--WDI4 10:20 after brief intro of challenges-->
+<!--WDI5 10:42 after 5-10 mins for devs to pseudocode and running through solns for challenges -->
 <!--12:23 -->
 
 ### Further Resources
